@@ -152,7 +152,7 @@ export const isHighContrastMode = (): boolean => {
   if (typeof window === 'undefined') return false;
 
   const style = window.getComputedStyle(document.body, ':before');
-  return style.content && style.content !== 'normal';
+  return Boolean(style.content && style.content !== 'normal' && style.content !== 'none');
 };
 
 // Reduced motion preference detection
