@@ -84,7 +84,7 @@ pnpm dev
 bun dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+5. Open [https://fitness-tracker-automation.vercel.app/](https://fitness-tracker-automation.vercel.app/) with your browser to see the application.
 
 ## 🏗️ Project Structure
 

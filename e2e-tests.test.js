@@ -21,7 +21,7 @@ describe('Fitness Tracker App - End-to-End Tests', () => {
 
   beforeEach(async () => {
     // Navigate to the home page
-    await page.goto('http://localhost:3000'); // Assuming the app runs on localhost:3000
+    await page.goto('https://fitness-tracker-automation.vercel.app/'); // Using production URL
   });
 
   describe('Authentication Flow', () => {

@@ -17,11 +17,13 @@ app.use(express.json());
 // Enable CORS
 const corsOptions = {
   origin: [
-    'http://localhost:3000',    // Next.js frontend
+    'https://fitness-tracker-automation.vercel.app',
+    'https://bashartc14-fit-chatbot.hf.space',
+       // Next.js frontend
     'http://localhost:8000',    // Chatbot backend
     process.env.CLIENT_URL,       // From environment variable
     'https://bashartc14-ftt.hf.space'  // Production frontend
-  ].filter(Boolean), // Remove any undefined values
+  ].filter(Boolean), // Remove any undefined values,
   credentials: true,
   optionsSuccessStatus: 200
 };

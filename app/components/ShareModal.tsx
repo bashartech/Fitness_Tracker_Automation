@@ -50,7 +50,7 @@ export default function ShareModal({ isOpen, onClose, achievement }: ShareModalP
         <div className="flex space-x-3">
           <button
             onClick={handleTwitterShare}
-            className="flex-1 cursor-pointer bg-gray-900 px-4 py-2 bg-blue-400 text-gray-900  rounded hover:bg-blue-500"
+            className="flex-1 cursor-pointer bg-gray-900 px-4 py-2 bg-blue-400 text-gray-300  rounded hover:bg-blue-500"
           >
             Twitter
           </button>
@@ -71,7 +71,7 @@ export default function ShareModal({ isOpen, onClose, achievement }: ShareModalP
           />
           <button
             onClick={handleCopy}
-            className="mt-2 w-full px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
+            className="mt-2 w-full px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 text-gray-900"
           >
             {copied ? 'Copied!' : 'Copy Link'}
           </button>
