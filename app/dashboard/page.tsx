@@ -1,13 +1,12 @@
 'use client';
 
-import { useState, useEffect, createContext, useContext } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { workoutAPI, nutritionAPI, weightAPI, goalAPI, progressAPI } from '../services/api';
 import WeightChart from '../components/WeightChart';
 import WorkoutChart from '../components/WorkoutChart';
 import NutritionChart from '../components/NutritionChart';
-import FloatingChatbot from '../components/FloatingChatbot';
 import { DashboardProvider } from '../context/DashboardContext';
 import FitnessChatbot from '../components/FitnessChatbot';
 
